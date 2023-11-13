@@ -1,0 +1,37 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.main{
+    height: 30rem;
+    /* border: 2px solid red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.center{
+    height: 23rem;
+    width: 20rem;
+    border: 2px  solid green;
+    background-color: rgb(13, 154, 154);
+    text-align: center;
+}
+
+.temprature, .cityName {
+    font-size: xx-large;
+    font-weight: bold;
+    color: white;
+}
+
+
+.down{
+    display: flex;
+    justify-content: space-between;
+}
+
+.down div{
+    color: white;
+}
